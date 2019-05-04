@@ -8,16 +8,14 @@ Epoch Time Convertor:
 https://www.epochconverter.com/
 
 
-My API Key:
-1aa3e82a71c93a310e8b08d9f2bb3c4a
 
 UT Tower:
 30.2861062,-97.7392009
 
 
-https://api.darksky.net/forecast/1aa3e82a71c93a310e8b08d9f2bb3c4a/30.2861062,-97.7392009,2019-04-01T17:00:00Z
+https://api.darksky.net/forecast/__api_key__/30.2861062,-97.7392009,2019-04-01T17:00:00Z
 
-https://api.darksky.net/forecast/1aa3e82a71c93a310e8b08d9f2bb3c4a/30.2861062,-97.7392009,2019-04-01T23:59:59-0500
+https://api.darksky.net/forecast/__api_key__/30.2861062,-97.7392009,2019-04-01T23:59:59-0500
 
 
 Returns JSON
