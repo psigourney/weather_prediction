@@ -1,0 +1,55 @@
+Dark Sky API
+https://darksky.net/dev/account
+
+Python API Wrapper:
+https://github.com/lukaskubis/darkskylib
+
+Epoch Time Convertor:
+https://www.epochconverter.com/
+
+
+My API Key:
+1aa3e82a71c93a310e8b08d9f2bb3c4a
+
+UT Tower:
+30.2861062,-97.7392009
+
+
+https://api.darksky.net/forecast/1aa3e82a71c93a310e8b08d9f2bb3c4a/30.2861062,-97.7392009,2019-04-01T17:00:00Z
+
+https://api.darksky.net/forecast/1aa3e82a71c93a310e8b08d9f2bb3c4a/30.2861062,-97.7392009,2019-04-01T23:59:59-0500
+
+
+Returns JSON
+
+[YYYY]-[MM]-[DD]T[HH]:[MM]:[SS][timezone]
+
+2019-04-01T17:00:00Z
+
+
+
+Predict:
+-------------
+HighTemp
+LowTemp
+PrecipProbability
+CloudCover(0-1)
+Pressure
+WindSpeed
+WindBearing - Convert bearing into 4 directional categories?
+
+From JSON:
+
+forecast.daily.temperatureHigh
+forecast.daily.temperatureLow
+forecast.daily.precipProbability
+forecast.daily.cloudCover
+forecast.daily.pressure
+forecast.daily.windSpeed
+forecast.daily.windBearing
+
+Schema
+
+date, high, low, precipPRob, pressure speed, direction char(1);
+
+
